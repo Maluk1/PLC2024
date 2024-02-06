@@ -27,3 +27,7 @@ r12 = print [1..3]
 
 main :: IO ()
 main = pure ()
+
+
+--map() will take in a parameter to modify a list and then run to change all the values in the list 
+--map (+3) [1,5,3,1,6] == [4,8,6,4,9]
